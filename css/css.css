@@ -1,0 +1,10 @@
+#testes-resultados {
+  white-space: pre-wrap;
+  background: #c5dad1;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #f3610c;
+  max-height: 300px;
+  overflow-y: auto;
+  font-family: monospace;
+}

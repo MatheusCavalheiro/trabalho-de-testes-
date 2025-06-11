@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Testes de Login</title>
+  <script src="./src/simulador de login.js"></script>
+  <script src="./tests/unitario.test.js" defer></script>
+   <script src="./tests/component.test.js" defer></script>
+</head>
+<body>
+  <h1>Simulador de Login</h1>
+
+  <h2>Login</h2>
+  <label for="email">Gmail:</label>
+  <input type="email" id="email" placeholder="exemplo@gmail.com"><br><br>
+
+  <label for="senha">Senha:</label>
+  <input type="password" id="senha" placeholder="Digite a senha"><br><br>
+
+  <button onclick="fazerLogin()">Fazer Login</button>
+  <p id="login-resultado"></p>
+
+  <hr>
+
+  <button id="rodarTestesUnitBtn">Rodar Testes Unitários</button>
+<div id="testes-resultados"></div>
+
+<br><br>
+
+<button id="rodarTestesComponentBtn">Rodar Testes de Componentes</button>
+<div id="componentes-resultados"></div>
+
+</body>
+</html>
