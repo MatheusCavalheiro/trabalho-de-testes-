@@ -1,8 +1,6 @@
 function validarLogin(email, senha) {
   const usuarios = {
-    "admin@gmail.com": "1234",
-    "user@gmail.com": "abcd",
-    "teste@gmail.com": "senha"
+    "matheuscavalveiro2019@gmail.com": "1234",
   };
 
   if (!email || !senha) return false;
